@@ -5,4 +5,9 @@ class Solution {
         var words = trimmed.split(" ")
         return words.last().length
     }
+    
+    //for better perfomance
+    fun lengthOfLastWord(s: String): Int {
+        return s.trim().split(" ").last().length
+    }
 }
